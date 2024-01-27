@@ -4,119 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 
     <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            text-align: center;
-        }
-
-        h1,
-        h2,
-        h3 {
-            color: #333;
-        }
-
-        section {
-            margin-bottom: 20px;
-        }
-
-        .lists-container {
-            display: flex;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 5px;
-            list-style-type: circle;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding-top: 10px;
-            border-top: 1px solid #ccc;
-        }
-
-        /* Add a black background color to the top navigation */
-        .topnav {
-            background-color: #333;
-            overflow: hidden;
-        }
-
-        /* Style the links inside the navigation bar */
-        .topnav a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        /* Change the color of links on hover */
-        .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        /* Add an active class to highlight the current page */
-        .topnav a.active {
-            background-color: #04aa9c;
-            color: white;
-        }
-
-        /* Hide the link that should open and close the topnav on small screens */
-        .topnav .icon {
-            display: none;
-        }
-
-        @media screen and (max-width: 600px) {
-            .topnav a:not(:first-child) {
-                display: none;
-            }
-
-            .topnav a.icon {
-                float: right;
-                display: block;
-            }
-        }
-
-        /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-        @media screen and (max-width: 600px) {
-            .topnav.responsive {
-                position: relative;
-            }
-
-            .topnav.responsive a.icon {
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
-
-            .topnav.responsive a {
-                float: none;
-                display: block;
-                text-align: left;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -133,16 +26,8 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+    <script src="script.js"></script>
+
 
     <!-- Page Container -->
     <div class="w3-content w3-margin-top" style="max-width:1400px;">
